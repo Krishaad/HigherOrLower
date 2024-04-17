@@ -1,0 +1,16 @@
+Created the logic of game
+
+Need to do:
+
+Done:
+connect js file with html file
+
+In Progress:
+check if logic is correct
+
+Next step:
+do standard layout of game
+design the cards for the whole deck
+do animations of the card coming from a deck
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js"></script>
+  <title>Higher or Lower</title>
+  <style>
+    /* Add some basic styling */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #333;
+    }
+    #main-container {
+      text-align: center;
+      color: #f0f0f0; /* Ensures all content in the div is centered */
+    }
+    button {
+      font-size: 20px;
+      padding: 15px 30px;
+      width: 150px;
+      height: 50px;
+      border-radius: 5px;
+      border: 2px solid #000;
+      cursor: pointer;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    #counter{
+      font-size: 18px;
+      padding: 5px 10px;
+      color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div id="main-container">
+    <h1>Higher or Lower Card Game</h1>
+    <div id="game-container">
+      <img id="card-image" src="cards" alt="Card Image" style="width: 350px; height: 500px;">
+      <p id="card-display"></p>
+      <p id="counter"></p>
+      <button class= "button" onclick="guess('lower')">Lower</button>
+      <button class= "button" onclick="guess('higher')">Higher</button>
+      
+    </div>
+  </div>
+</body>
+</html>

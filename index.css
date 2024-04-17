@@ -1,0 +1,27 @@
+#card-image {
+    width: 100px; /* or any other appropriate size */
+    height: 140px;
+    border: 1px solid #ccc; /* optional, adds a light border around the cards */
+    border-radius: 10px; /* optional, rounds the corners of the images */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    opacity: 0;  /* Start with an invisible image */
+    transform: scale(0.75); /* Start scaled down */
+}
+
+#card-image.visible {
+    opacity: 1;  /* Fully visible */
+    transform: scale(1); /* Scale to normal size */
+  }
+
+button {
+    font-size: 20px;      /* Larger text inside the button */
+    padding: 15px 30px;   /* Top/bottom padding and left/right padding */
+    width: 150px;         /* Set a specific width */
+    height: 50px;         /* Set a specific height */
+    border-radius: 5px;   /* Optional: rounds the corners of the button */
+    border: 2px solid #000; /* Optional: adds a solid border around the button */
+    cursor: pointer;      /* Changes the cursor to a pointer when hovering over the button */
+    background-color: #f0f0f0; /* Optional: changes the background color */
+    color: #333;          /* Changes the text color */
+  }
+  
